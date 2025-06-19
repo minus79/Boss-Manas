@@ -6,37 +6,38 @@
 
 **One of the Best WhatsApp Multi-Device Bots!**
 
-const { cmd } = require('../lib/command')
+const { stylekings } = require('../lib');
 
-cmd({
+stylekings({
   pattern: 'deploy',
-  desc: 'Style Kings Bot को deploy करने का पूरा तरीका बताता है',
-  category: 'info',
-  use: '.deploy'
-}, async (m) => {
-  const message = `
-*👑 Style Kings Bot - Deploy Guide 👑*
+  desc: 'Deploy instructions for the bot',
+  category: 'general',
+  use: '.deploy',
+  filename: __filename,
+}, async (m, { conn }) => {
+  const deployText = `*🚀 Style Kings Bot Deployment Guide*
 
-*🚀 Step 1: Fork Repository*
-🔗 https://github.com/Boss-Manas/👑-Style-Kings-Bot-👑/fork
+*Step 1: Fork the Repository*
+🔗 https://github.com/mruniquehacker/Knightbot-MD/fork
 
-*🔐 Step 2: Get Pair Code*
-🌐 Replit: https://replit.com/@DGXeon/Xeon-PairCode?v=1  
-🌐 Easy Method: https://knight-bot-paircode.onrender.com
+*Step 2: Get Pair Code*
+🛠️ Replit: https://replit.com/@DGXeon/Xeon-PairCode?v=1
+🔗 Easy Link: https://knight-bot-paircode.onrender.com
 
-📁 *creds.json* मिलने के बाद, उसे अपने GitHub repo के *session* फोल्डर में अपलोड करें।
+📁 creds.json फ़ाइल को *session* फोल्डर में अपलोड करें
 
-*⚙️ Step 3: Deploy Bot*
-📺 Tutorial: https://youtu.be/dDyiEHF8rIQ  
-🖥️ Free Hosting: https://bot-hosting.net/?aff=1068419752923508776
+*Step 3: Deploy Now*
+🎥 Tutorial: https://youtu.be/dDyiEHF8rIQ
+🖥️ Hosting: https://bot-hosting.net/?aff=1068419752923508776
 
-🧠 *Katabump Panel से Host करें:*
-🔗 https://dashboard.katabump.com/auth/login#d6b7d6
+🌐 Panel Deploy:
+➡️ https://dashboard.katabump.com/auth/login#d6b7d6
 
-_Bot Owner: Boss Manas 👑_
-`
-  await m.reply(message)
-})
+_Bot by Boss Manas 👑_
+`;
+
+  await conn.sendMessage(m.chat, { text: deployText }, { quoted: m });
+});
 
 ## 🛠 Features
 - Group Management

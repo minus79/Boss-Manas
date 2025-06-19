@@ -1,6 +1,6 @@
 # 👑 Style Kings Bot 👑
 
-![Logo](.https://ibb.co/jvV6gn07)
+![Logo](.https://ibb.co/jvV6gn07.png)
 
 **One of the Best WhatsApp Multi-Device Bots!**
 

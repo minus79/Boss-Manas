@@ -1,6 +1,8 @@
 # 👑 Style Kings Bot 👑
 
-![Logo]= "https://files.catbox.moe/tuzl2r.jpg"
+<p align="center">
+  <img src="https://files.catbox.moe/tuzl2r.jpg" />
+</p>
 
 **One of the Best WhatsApp Multi-Device Bots!**
 
@@ -24,8 +26,4 @@ Run the bot locally or via Termux and scan QR to get started.
 
 ---
 
-👑 Made with love by Boss Minus
-
-<p align="center">
-  <img src="https://files.catbox.moe/tuzl2r.jpg" />
-</p>
+👑 Made with love by Boss Manas

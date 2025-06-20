@@ -1,4 +1,4 @@
-# 👑 Style Kings Bot 👑
+# 🤖 Style Kings Bot 👑
 
 <p align="center">
   <img src="https://files.catbox.moe/tuzl2r.jpg" />

@@ -1,4 +1,3 @@
-**
  * style king bot - A WhatsApp Bot
  * Copyright (c) 2024 Professor
  * 
